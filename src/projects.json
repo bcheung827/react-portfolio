@@ -1,0 +1,23 @@
+[
+    {
+        "title": "dog-breed-finder",
+        "image": "/images/src/images/Re-Tail.PNG",
+        "about": 
+            "A webpage where the user can look for dogs by breed available for adoption within a specified location",
+        "repo": "https://github.com/DaveDw/dog-breed-finder"
+    },
+    {
+        "title": "code-quiz",
+        "image": "/images/src/images/Code Quiz.PNG",
+        "about": 
+            "A timed code quiz consisted of 5 questions where when the user chooses an incorrect answer, there will be a 10 second penalty imposed to the remaining time",
+        "repo": "https://bcheung827.github.io/code-quiz-hw/"
+    },
+    {
+        "title": "daily-planner",
+        "image": "/images/src/images/Daily Planner.PNG",
+        "about": 
+            "A planner that the user can input text to save for a particular hour in the day. The hours are also color coded where if it is a past hour, the input field will turn red, a future hour will be green, and present color is white.",
+        "repo": "https://github.com/bcheung827/daily-planner"
+    }
+]
