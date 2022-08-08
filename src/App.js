@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 import './App.css';
 
 import Main from "./views/Main";
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="app">
       <div className="wrapper">
-        <NavBar />
+        {/* <NavBar /> */}
         <Main />
         <Projects />
         <About />

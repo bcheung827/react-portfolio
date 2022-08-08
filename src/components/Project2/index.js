@@ -19,11 +19,7 @@ function Project2() {
             </a>
           </div>
           <div className="col-sm text-center">
-            <a className="siteLink" href={project.site}>
-              <button type="button" className="btn btn-info siteBtn">
-                Website
-              </button>
-            </a>
+            <a className="siteLink" href={project.site}><button type="button" className="btn btn-info siteBtn">Website</button></a>
           </div>
         </div>
       );
