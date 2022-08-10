@@ -14,7 +14,7 @@ function Project() {
                         <h4 className="projectTitle">{project.title}</h4>
                         <p className="projectAbout">{project.about}</p>
                         <ul className="technologies">
-                            <TechListItem techItems={project.technologies}></TechListItem>
+                            <TechListItem techItems={project.repo}></TechListItem>
                         </ul>
                         <div className="row">
                             <button type="button" className="btn btn-info"><a className="repoLink" href={project.repo}>Repo</a></button>

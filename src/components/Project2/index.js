@@ -12,7 +12,7 @@ function Project2() {
       return (
         <div className="row">
           <div className="col-sm text-center">
-            <a className="repoLink" href={project.repo}>
+            <a className="repoLink" href={project.techs}>
               <button type="button" className="btn btn-info repoBtn">
                 Code
               </button>
@@ -34,8 +34,8 @@ function Project2() {
     }
   };
 
-  return projects.map((project) => {
-    return ( <div className="row">
+  return projects.map((project, i) => {
+    return ( <div className="row" key={i}>
       <div className="card mb-5 projectCard">
         <div className="card-body">
           <div className="row">
@@ -52,7 +52,7 @@ function Project2() {
               <div className="row card-text">
                 <p>{project.about}</p>
                 <ul className="technologies">
-                  <TechListItem techItems={project.technologies}></TechListItem>
+                  <TechListItem techItems={project.techs}></TechListItem>
                 </ul>
               </div>
               {checkRepoLink(project)}

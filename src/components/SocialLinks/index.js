@@ -12,8 +12,8 @@ function SocialLinks() {
       <div className="row">
         <div className="col-sm" />
         <div className="col-sm text-center">
-          <a href="https://www.github.com/bcheung827"><i class="fab fa-github-square fa-3x" /></a>
-          <a href="https://www.linkedin.com/in/brandonkcheung/"><i class="fab fa-linkedin fa-3x" /></a>
+          <a href="https://www.github.com/bcheung827"><i className="fab fa-github-square fa-3x" /></a>
+          <a href="https://www.linkedin.com/in/brandonkcheung/"><i className="fab fa-linkedin fa-3x" /></a>
         </div>
         <div className="col-sm" />
       </div>

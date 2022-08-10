@@ -2,8 +2,8 @@ import React from "react";
 
 function TechListItem(props) {
 
-    return props.techItems.map(technology => {
-            return <li className="techUsed">{technology}</li>
+    return props.techItems.map((technology, i) => {
+            return <li className="techUsed" key={i}>{technology}</li>
     })
     
 }

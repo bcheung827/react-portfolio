@@ -14,7 +14,7 @@ function NavBar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <i class="fas fa-bars fa-lg"></i>
+        <i className="fas fa-bars fa-lg"></i>
       </button>
       <div
         className="collapse navbar-collapse justify-content-center"
