@@ -6,7 +6,7 @@ html {
 
 .viewTwo {
     width: 100%;
-    background-color: #006494;
+    background-color: #e8f1f2;
 }
 
 .viewTitle {
@@ -16,7 +16,7 @@ html {
     padding-bottom: 7vh;
     font-size: 45px;
     letter-spacing: 8px;
-    color: #e8f1f2;
+    color: #006494;
 }
 
 .technologies {
