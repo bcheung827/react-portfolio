@@ -13,6 +13,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   <img src="images\react-portfolio1.png"><br>
   <img src="images\react-portfolio2.png"><br>
   <img src="images\react-portfolio3.png"><br>
+
+  Deployed Link- [gh-pages](https://bcheung827.github.io/react-portfolio/)
   
   ## Installation
   npm install
